@@ -21,10 +21,10 @@ gdjs.NewSceneCode.condition1IsTrue_1 = {val:false};
 gdjs.NewSceneCode.condition2IsTrue_1 = {val:false};
 
 
-gdjs.NewSceneCode.eventsList0x6d7a24 = function(runtimeScene) {
+gdjs.NewSceneCode.eventsList0x68026c = function(runtimeScene) {
 
-}; //End of gdjs.NewSceneCode.eventsList0x6d7a24
-gdjs.NewSceneCode.eventsList0x67d79c = function(runtimeScene) {
+}; //End of gdjs.NewSceneCode.eventsList0x68026c
+gdjs.NewSceneCode.eventsList0x6b6e8c = function(runtimeScene) {
 
 {
 
@@ -70,7 +70,7 @@ if (true) {
 {runtimeScene.getVariables().getFromIndex(3).setNumber(gdjs.random(61));
 }
 { //Subevents: 
-gdjs.NewSceneCode.eventsList0x6d7a24(runtimeScene);} //Subevents end.
+gdjs.NewSceneCode.eventsList0x68026c(runtimeScene);} //Subevents end.
 }
 } else gdjs.NewSceneCode.stopDoWhile3 = true; 
 } while ( !gdjs.NewSceneCode.stopDoWhile3 );
@@ -118,11 +118,11 @@ gdjs.NewSceneCode.GDpersonObjects1.createFrom(runtimeScene.getObjects("person"))
 }
 
 
-}; //End of gdjs.NewSceneCode.eventsList0x67d79c
-gdjs.NewSceneCode.eventsList0x6a705c = function(runtimeScene) {
+}; //End of gdjs.NewSceneCode.eventsList0x6b6e8c
+gdjs.NewSceneCode.eventsList0x6a747c = function(runtimeScene) {
 
-}; //End of gdjs.NewSceneCode.eventsList0x6a705c
-gdjs.NewSceneCode.eventsList0x6ce244 = function(runtimeScene) {
+}; //End of gdjs.NewSceneCode.eventsList0x6a747c
+gdjs.NewSceneCode.eventsList0x6da0c4 = function(runtimeScene) {
 
 {
 
@@ -168,7 +168,7 @@ if (true) {
 {runtimeScene.getVariables().getFromIndex(3).setNumber(gdjs.random(61));
 }
 { //Subevents: 
-gdjs.NewSceneCode.eventsList0x6a705c(runtimeScene);} //Subevents end.
+gdjs.NewSceneCode.eventsList0x6a747c(runtimeScene);} //Subevents end.
 }
 } else gdjs.NewSceneCode.stopDoWhile3 = true; 
 } while ( !gdjs.NewSceneCode.stopDoWhile3 );
@@ -216,7 +216,7 @@ gdjs.NewSceneCode.GDpersonObjects1.createFrom(runtimeScene.getObjects("person"))
 }
 
 
-}; //End of gdjs.NewSceneCode.eventsList0x6ce244
+}; //End of gdjs.NewSceneCode.eventsList0x6da0c4
 gdjs.NewSceneCode.eventsList0xb4be0 = function(runtimeScene) {
 
 {
@@ -236,7 +236,7 @@ gdjs.NewSceneCode.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.sceneJustB
 {gdjs.evtTools.runtimeScene.setBackgroundColor(runtimeScene, "0;0;0;");
 }
 { //Subevents
-gdjs.NewSceneCode.eventsList0x67d79c(runtimeScene);} //End of subevents
+gdjs.NewSceneCode.eventsList0x6b6e8c(runtimeScene);} //End of subevents
 }
 
 }
@@ -276,13 +276,13 @@ if( gdjs.NewSceneCode.condition1IsTrue_1.val ) {
 }if ( gdjs.NewSceneCode.condition0IsTrue_0.val ) {
 {
 {gdjs.NewSceneCode.conditionTrue_1 = gdjs.NewSceneCode.condition1IsTrue_0;
-gdjs.NewSceneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(7034988);
+gdjs.NewSceneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(7186492);
 }
 }}
 if (gdjs.NewSceneCode.condition1IsTrue_0.val) {
 
 { //Subevents
-gdjs.NewSceneCode.eventsList0x6ce244(runtimeScene);} //End of subevents
+gdjs.NewSceneCode.eventsList0x6da0c4(runtimeScene);} //End of subevents
 }
 
 }
